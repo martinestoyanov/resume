@@ -1,0 +1,164 @@
+{
+  "basics": {
+    "name": "Martin Stoyanov",
+    "email": "martinestoyanov@gmail.com",
+    "phone": "(347) 652-9777",
+    "summary": "Lifelong tinkerer, federally certified and licensed Aircraft Technician and car enthusiast. Attended Ironhack Miami to broaden my programming skill set and improve from amateur to professional. Pursuing employment in a field and company which challenges and recognizes it's employees daily while maintaining a healthy work-life balance.",
+    "location": {
+      "city": "Fort Lauderdale",
+      "region": "FL"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "martinestoyanov",
+        "url": "https://www.github.com/martinestoyanov"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "martinegorstoyanov",
+        "url": "https://www.linkedin.com/in/martinegorstoyanov"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "Ironhack Miami",
+      "location": "Miami, FL",
+      "area": "Web Development, Bootcamp"
+    },
+    {
+      "institution": "Pennsylvania College of Technology",
+      "location": "Williamsport, PA",
+      "area": "B.S. in Aircraft Maintenance and Avionics"
+    }
+  ],
+  "work": [
+    {
+      "company": "JetBlue Airways",
+      "location": "New York City, NY || Ft. Lauderdale, FL",
+      "position": "Aircraft Maintenance Technician",
+      "startDate": "2018-08",
+      "highlights": [
+        "Perform scheduled and unscheduled maintenance on Airbus 320/321 and Embraer E190 aircraft.",
+        "Use aircraft technical information and documentation in troubleshooting.",
+        "Ensured the safe and on-time departure of over 600 first-flight aircraft."
+      ]
+    },
+    {
+      "highlights": [
+        "Perform scheduled and unscheduled maintenance on Bombardier Q400 and Embraer E175 aircraft.",
+        "Use aircraft wiring diagrams and engineering documents to troubleshoot and modify aircraft safely and efficiently.",
+        "Modified over 40 commercial aircraft wiring systems to meet company standards in less than 2 months while continuing to maintain normal workload productivity levels."
+      ],
+      "company": "Horizon Air",
+      "position": "Avionics Technician",
+      "location": "Portland, OR",
+      "endDate": "2018-08",
+      "startDate": "2016-12"
+    },
+    {
+      "highlights": [
+        "Perform scheduled and unscheduled maintenance on small general aviation aircraft.",
+        "Ensure the safety of student and instructor pilots by working closely with QC Inspectors to develop higher maintenance standards."
+      ],
+      "company": "Hillsboro Aero Academy",
+      "position": "Aircraft Technician",
+      "location": "Hillsboro, OR",
+      "startDate": "2016-04",
+      "endDate": "2016-12"
+    },
+    {
+      "highlights": [
+        "Operate, maintain and upgrade projection system in digital art/event space.",
+        "Consult with clients ranging from individuals to large corporations to create interactive experiences."
+      ],
+      "company": "Lightbox",
+      "position": "Technical Director",
+      "location": "New York City, NY",
+      "startDate": "2014-08",
+      "endDate": "2015-10"
+    },
+    {
+      "highlights": [
+        "Consult on, build and provide support on custom home and small business A/V, network and lighting installations."
+      ],
+      "company": "EVS American Consulting",
+      "position": "Technical Advisor",
+      "location": "New York City, NY",
+      "startDate": "2014-05",
+      "endDate": "2014-10"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "keywords": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "React.js",
+        "Express.js",
+        "Node.js",
+        "MongoDB",
+        "Bootstrap",
+        "Handlebars",
+        "JSONResume",
+        "Git",
+        "Github"
+      ]
+    },
+    {
+      "name": "Licenses",
+      "keywords": ["FAA Airframe and Powerplant Maintenance"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Sat-Racer",
+      "website": "https://martinestoyanov.github.io/sat-racer/",
+      "keywords": ["JavaScript", "HTML", "CSS"],
+      "summary": "In-browser bird's eye view arcade style racing game using vanilla HTML/CSS/JavaScript.",
+      "startDate": "2021-02"
+    },
+    {
+      "name": "Animation-Station",
+      "website": "https://animation-station.herokuapp.com",
+      "summary": "Review centered server-side website which aims to provide an easy and clean way of searching for, reviewing and commenting on anime shows integrating a REST API.",
+      "keywords": [
+        "JavaScript",
+        "Node.js",
+        "Express.js",
+        "HTML",
+        "CSS",
+        "Handlebars",
+        "Jikan API",
+        "MongoDB",
+        "Mongoose",
+        "Atlas",
+        "Heroku",
+        "Git/Github"
+      ]
+    },
+    {
+      "name": "Storyboard",
+      "website": "https://thestoryboard.netlify.app/",
+      "summary": "Collaborative platform aimed to bridge the gap between authors and illustrators. Allows for users to easily find inspiration to write, illustrate or share related videos. Incorporates text analysis API's to ensure a positive and constructive environment.",
+      "keywords": [
+        "JavaScript",
+        "Node.js",
+        "Express.js",
+        "HTML",
+        "CSS",
+        "React.js",
+        "MongoDB",
+        "Atlas",
+        "Mongoose",
+        "Heroku",
+        "Netlify",
+        "Git/Github",
+        "Microsoft Azure AI"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "jsonresume-theme-flat-projects",
+  "version": "1.0.4",
+  "description": "A theme for JSON Resume, with support for projects",
+  "author": "Henrik Olsson",
+  "scripts": {
+    "start": "resume serve --theme .",
+    "build": "npm run build-html && npm run build-pdf",
+    "build-html": "resume export --theme flat-projects index.html",
+    "build-pdf": "wkhtmltopdf --viewport-size 1280x1024 --page-size A4 index.html resume.pdf"
+  },
+  "dependencies": {
+    "handlebars": "^2.0.0-alpha.4"
+  },
+  "license": "MIT"
+}

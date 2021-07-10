@@ -1,0 +1,592 @@
+<!doctype html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+
+	<title>Martin Stoyanov</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+
+	<style type="text/css">
+		@import url(https://fonts.googleapis.com/css?family=Lato:400,700
+);
+
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+
+a {
+	color: #2ecc71;
+}
+
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+
+p+p {
+	margin-top: 10px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+
+section {
+	margin-top: 30px;
+}
+
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+
+.col-sm-12 h4 {
+	margin-top: 12px;
+}
+
+.col-sm-12+.col-sm-12 {
+	margin-top: 30px;
+}
+
+#header {
+	background: #f4f6f6;
+	padding: 25px 0;
+	margin-bottom: 20px;
+}
+
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+
+#profiles .network {
+	text-transform: capitalize;
+}
+
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+
+#education .area {
+	font-weight: bold;
+}
+
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+
+#education .studyType {
+	margin-left: 25px;
+}
+
+#location {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#top-row {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#awards .summary,
+#projects .summary,
+#projects .keywords,
+#publications .summary {
+	margin-top: 12px;
+}
+
+#projects .website a:before,
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+
+	.strike-through span+span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+
+	#publications .website a:before {
+		content: "View publication";
+	}
+
+	#projects .website a:before {
+		content: "View project";
+	}
+}
+
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+
+	.strike-through span {
+		display: block;
+	}
+
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+
+	#actions {
+		display: none;
+	}
+}
+	</style>
+
+</head>
+
+<body>
+
+	<header id="header">
+		<div class="container">
+
+			<div id="top-row" class="row">
+				<div class="col-xs-6 col-sm-9">
+					<h1>
+						Martin Stoyanov
+					</h1>
+				</div>
+				<div id="location" class="col-xs-6 col-sm-3">
+					<div>
+						Fort Lauderdale, FL
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				
+				<div class="col-xs-6 col-sm-6">
+					<div class="email"><a href="mailto:martinestoyanov@gmail.com">martinestoyanov@gmail.com</a></div>
+					<div class="phone"><a href="tel:+13476529777">(347) 652-9777</a></div>
+				</div>
+
+				<div class="col-sm-6 text-right visible-sm-block visible-md-block visible-lg-block">
+					<div class="col-sm-6">
+						<strong class="network">
+							GitHub
+						</strong>
+						<div class="username">
+							<div class="url">
+								<a href="https://www.github.com/martinestoyanov">martinestoyanov</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<strong class="network">
+							LinkedIn
+						</strong>
+						<div class="username">
+							<div class="url">
+								<a href="https://www.linkedin.com/in/martinegorstoyanov">martinegorstoyanov</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-6 text-right visible-xs-block">
+					<div class="col-sm-6">
+						<div>
+							<a href="https://www.github.com/martinestoyanov" class="network">
+								GitHub
+							</a>
+						</div>
+						<div>
+							<a href="https://www.linkedin.com/in/martinegorstoyanov" class="network">
+								LinkedIn
+							</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</header>
+
+	<div id="content" class="container">
+
+		<section id="about" class="row">
+			<aside class="col-sm-3">
+				<h3>About</h3>
+			</aside>
+			<div class="col-sm-9">
+				<p>Lifelong tinkerer, federally certified and licensed Aircraft Technician and car enthusiast. Attended Ironhack Miami to broaden my programming skill set and improve from amateur to professional. Pursuing employment in a field and company which challenges and recognizes it&#x27;s employees daily while maintaining a healthy work-life balance.</p>
+			</div>
+		</section>
+
+		<section id="projects" class="row">
+			<aside class="col-sm-3">
+				<h3>Projects</h3>
+			</aside>
+			<div class="col-sm-9">
+				<div class="row">
+					<div class="col-sm-12">
+						<h4 class="strike-through">
+							<span>Sat-Racer</span>
+						</h4>
+						<div class="website">
+							<a href="https://martinestoyanov.github.io/sat-racer/"></a>
+						</div>
+						<div class="summary">
+							<p>In-browser bird&#x27;s eye view arcade style racing game using vanilla HTML/CSS/JavaScript.</p>
+						</div>
+						<div class="keywords">
+							<h5>Technologies</h5>
+							<ul class="keywords row">
+								<li class="col-sm-4">JavaScript</li>
+								<li class="col-sm-4">HTML</li>
+								<li class="col-sm-4">CSS</li>
+							</ul>
+
+
+						</div>
+					</div>
+					<div class="col-sm-12">
+						<h4 class="strike-through">
+							<span>Animation-Station</span>
+						</h4>
+						<div class="website">
+							<a href="https://animation-station.herokuapp.com"></a>
+						</div>
+						<div class="summary">
+							<p>Review centered server-side website which aims to provide an easy and clean way of searching for, reviewing and commenting on anime shows integrating a REST API.</p>
+						</div>
+						<div class="keywords">
+							<h5>Technologies</h5>
+							<ul class="keywords row">
+								<li class="col-sm-4">JavaScript</li>
+								<li class="col-sm-4">Node.js</li>
+								<li class="col-sm-4">Express.js</li>
+								<li class="col-sm-4">HTML</li>
+								<li class="col-sm-4">CSS</li>
+								<li class="col-sm-4">Handlebars</li>
+								<li class="col-sm-4">Jikan API</li>
+								<li class="col-sm-4">MongoDB</li>
+								<li class="col-sm-4">Mongoose</li>
+								<li class="col-sm-4">Atlas</li>
+								<li class="col-sm-4">Heroku</li>
+								<li class="col-sm-4">Git/Github</li>
+							</ul>
+
+
+						</div>
+					</div>
+					<div class="col-sm-12">
+						<h4 class="strike-through">
+							<span>Storyboard</span>
+						</h4>
+						<div class="website">
+							<a href="https://thestoryboard.netlify.app/"></a>
+						</div>
+						<div class="summary">
+							<p>Collaborative platform aimed to bridge the gap between authors and illustrators. Allows for users to easily find inspiration to write, illustrate or share related videos. Incorporates text analysis API&#x27;s to ensure a positive and constructive environment.</p>
+						</div>
+						<div class="keywords">
+							<h5>Technologies</h5>
+							<ul class="keywords row">
+								<li class="col-sm-4">JavaScript</li>
+								<li class="col-sm-4">Node.js</li>
+								<li class="col-sm-4">Express.js</li>
+								<li class="col-sm-4">HTML</li>
+								<li class="col-sm-4">CSS</li>
+								<li class="col-sm-4">React.js</li>
+								<li class="col-sm-4">MongoDB</li>
+								<li class="col-sm-4">Atlas</li>
+								<li class="col-sm-4">Mongoose</li>
+								<li class="col-sm-4">Heroku</li>
+								<li class="col-sm-4">Netlify</li>
+								<li class="col-sm-4">Git/Github</li>
+								<li class="col-sm-4">Microsoft Azure AI</li>
+							</ul>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="skills" class="row">
+
+			<aside class="col-sm-3">
+				<h3>Skills</h3>
+			</aside>
+
+			<div class="col-sm-9">
+
+				<div class="row">
+
+					<div>
+
+						<div class="name col-sm-12">
+							<h4><span>Programming</span></h4>
+						</div>
+
+						<ul class="keywords row">
+							<li class="col-sm-3">JavaScript</li>
+							<li class="col-sm-3">HTML</li>
+							<li class="col-sm-3">CSS</li>
+							<li class="col-sm-3">React.js</li>
+							<li class="col-sm-3">Express.js</li>
+							<li class="col-sm-3">Node.js</li>
+							<li class="col-sm-3">MongoDB</li>
+							<li class="col-sm-3">Bootstrap</li>
+							<li class="col-sm-3">Handlebars</li>
+							<li class="col-sm-3">JSONResume</li>
+							<li class="col-sm-3">Git</li>
+							<li class="col-sm-3">Github</li>
+						</ul>
+
+
+
+					</div>
+					<div>
+
+						<div class="name col-sm-12">
+							<h4><span>Licenses</span></h4>
+						</div>
+
+
+
+						<ul class="keywords row">
+							<li class="col-sm-12">FAA Airframe and Powerplant Maintenance</li>
+						</ul>
+
+					</div>
+
+				</div>
+
+			</div>
+		</section>
+
+		<section id="education" class="row">
+			<aside class="col-sm-3">
+				<h3>Education</h3>
+			</aside>
+			<div class="col-sm-9">
+				<div class="row">
+					<div class="col-sm-12">
+						<h4 class="strike-through">
+							<span>Ironhack Miami</span>
+						</h4>
+						<div class="area">
+							Web Development, Bootcamp
+						</div>
+					</div>
+					<div class="col-sm-12">
+						<h4 class="strike-through">
+							<span>Pennsylvania College of Technology</span>
+						</h4>
+						<div class="area">
+							B.S. in Aircraft Maintenance and Avionics
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="work" class="row">
+			<aside class="col-sm-3">
+				<h3>Work</h3>
+			</aside>
+			<div class="col-sm-9">
+				<div class="row">
+					<div class="col-sm-12">
+						<h4 class="strike-through">
+							<span>JetBlue Airways</span>
+							<span class="date">
+								2018-08 — 
+							</span>
+						</h4>
+						<div class="position">
+							Aircraft Maintenance Technician
+						</div>
+						<ul class="highlights">
+							<li class="bullet">Perform scheduled and unscheduled maintenance on Airbus 320/321 and Embraer E190 aircraft.</li>
+							<li class="bullet">Use aircraft technical information and documentation in troubleshooting.</li>
+							<li class="bullet">Ensured the safe and on-time departure of over 600 first-flight aircraft.</li>
+						</ul>
+					</div>
+					<div class="col-sm-12">
+						<h4 class="strike-through">
+							<span>Horizon Air</span>
+							<span class="date">
+								2016-12 — 2018-08
+							</span>
+						</h4>
+						<div class="position">
+							Avionics Technician
+						</div>
+						<ul class="highlights">
+							<li class="bullet">Perform scheduled and unscheduled maintenance on Bombardier Q400 and Embraer E175 aircraft.</li>
+							<li class="bullet">Use aircraft wiring diagrams and engineering documents to troubleshoot and modify aircraft safely and efficiently.</li>
+							<li class="bullet">Modified over 40 commercial aircraft wiring systems to meet company standards in less than 2 months while continuing to maintain normal workload productivity levels.</li>
+						</ul>
+					</div>
+					<div class="col-sm-12">
+						<h4 class="strike-through">
+							<span>Hillsboro Aero Academy</span>
+							<span class="date">
+								2016-04 — 2016-12
+							</span>
+						</h4>
+						<div class="position">
+							Aircraft Technician
+						</div>
+						<ul class="highlights">
+							<li class="bullet">Perform scheduled and unscheduled maintenance on small general aviation aircraft.</li>
+							<li class="bullet">Ensure the safety of student and instructor pilots by working closely with QC Inspectors to develop higher maintenance standards.</li>
+						</ul>
+					</div>
+					<div class="col-sm-12">
+						<h4 class="strike-through">
+							<span>Lightbox</span>
+							<span class="date">
+								2014-08 — 2015-10
+							</span>
+						</h4>
+						<div class="position">
+							Technical Director
+						</div>
+						<ul class="highlights">
+							<li class="bullet">Operate, maintain and upgrade projection system in digital art/event space.</li>
+							<li class="bullet">Consult with clients ranging from individuals to large corporations to create interactive experiences.</li>
+						</ul>
+					</div>
+					<div class="col-sm-12">
+						<h4 class="strike-through">
+							<span>EVS American Consulting</span>
+							<span class="date">
+								2014-05 — 2014-10
+							</span>
+						</h4>
+						<div class="position">
+							Technical Advisor
+						</div>
+						<ul class="highlights">
+							<li class="bullet">Consult on, build and provide support on custom home and small business A/V, network and lighting installations.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+	</div>
+
+</body>
+
+</html>
