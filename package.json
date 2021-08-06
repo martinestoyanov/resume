@@ -11,6 +11,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "handlebars": "^4.7.7"
+    "handlebars": "^4.7.7",
+    "html-pdf": "^3.0.1"
   }
 }
