@@ -1,0 +1,28 @@
+{{#if resume.education.length}}
+		<section id="education" class="row">
+			<aside class="col-sm-3">
+				<h3>Education</h3>
+			</aside>
+			<div class="col-sm-9">
+				<div class="row">
+					{{#each resume.education}}
+					<div class="col-sm-12">
+						<h4 class="strike-through">
+							<span>{{institution}}</span>
+						</h4>
+						{{#area}}
+						<div class="area">
+							{{.}}
+						</div>
+						{{/area}}
+						{{#studyType}}
+						<div class="studyType">
+							{{.}}
+						</div>
+						{{/studyType}}
+					</div>
+					{{/each}}
+				</div>
+			</div>
+		</section>
+		{{/if}}

@@ -1,0 +1,50 @@
+{{#if resume.skills.length}}
+<section id="skills" class="row">
+
+	<aside class="col-sm-3">
+		<h3>Skills</h3>
+	</aside>
+
+	<div class="col-sm-9">
+
+		<div class="row">
+
+			{{#each resume.skills}}
+			<div>
+
+				<div class="name col-sm-12">
+					<h4><span>{{this.name}}</span></h4>
+				</div>
+
+				{{#ifCond keywords.length '>' "2"}}
+				<ul class="keywords row">
+					{{#keywords}}
+					<li class="col-sm-3">{{.}}</li>
+					{{/keywords}}
+				</ul>
+				{{/ifCond}}
+
+				{{#ifCond keywords.length '==' "2"}}
+				<ul class="keywords row">
+					{{#keywords}}
+					<li class="col-sm-6">{{.}}</li>
+					{{/keywords}}
+				</ul>
+				{{/ifCond}}
+
+				{{#ifCond keywords.length '==' "1"}}
+				<ul class="keywords row">
+					{{#keywords}}
+					<li class="col-sm-12">{{.}}</li>
+					{{/keywords}}
+				</ul>
+				{{/ifCond}}
+
+			</div>
+			{{/each}}
+
+		</div>
+
+	</div>
+</section>
+{{/if}}

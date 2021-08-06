@@ -1,0 +1,72 @@
+{{#resume.basics}}
+<div class="container">
+
+	<div id="top-row" class="row">
+		<div class="col-xs-6 col-sm-9">
+			<h1>
+				{{this.name}}
+			</h1>
+		</div>
+		<div id="location" class="col-xs-6 col-sm-3">
+			<div>
+				{{this.location.city}}, {{this.location.region}}
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+
+		<div class="col-xs-6 col-sm-6">
+			<div class="email"><a href="mailto:martinestoyanov@gmail.com">{{this.email}}</a></div>
+			<div class="phone"><a href="tel:+13476529777">{{this.phone}}</a></div>
+		</div>
+
+		<div class="col-sm-6 text-right visible-sm-block visible-md-block visible-lg-block">
+			{{#if profiles.length}}
+			{{#profiles}}
+			<div class="col-sm-6">
+				{{#network}}
+				<strong class="network">
+					{{.}}
+				</strong>
+				{{/network}}
+				{{#if username}}
+				<div class="username">
+					{{#if url}}
+					<div class="url">
+						<a href="{{url}}">{{username}}</a>
+					</div>
+					{{else}}
+					{{username}}
+					{{/if}}
+				</div>
+				{{else}}
+				{{#if url}}
+				<div class="url">
+					<a href="{{url}}">{{url}}</a>
+				</div>
+				{{/if}}
+				{{/if}}
+			</div>
+			{{/profiles}}
+			{{/if}}
+		</div>
+
+		<div class="col-xs-6 text-right visible-xs-block">
+			{{#if profiles.length}}
+			<div class="col-sm-6">
+				{{#profiles}}
+				<div>
+					<a href="{{this.url}}" class="network">
+						{{this.network}}
+					</a>
+				</div>
+				{{/profiles}}
+			</div>
+			{{/if}}
+		</div>
+
+	</div>
+
+</div>
+{{/resume.basics}}
