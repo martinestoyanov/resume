@@ -10,7 +10,7 @@
     "build-pdf": "wkhtmltopdf --viewport-size 1280x1024 --page-size A4 index.html resume.pdf"
   },
   "dependencies": {
-    "handlebars": "^2.0.0-alpha.4"
+    "handlebars": "^4.7.7"
   },
   "license": "MIT"
 }
