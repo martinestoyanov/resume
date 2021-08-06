@@ -115,24 +115,11 @@
   ],
   "projects": [
     {
-      "name": "Storyboard",
-      "website": "https://thestoryboard.netlify.app/",
-      "summary": "Collaborative platform aimed to bridge the gap between authors and illustrators. Allows for users to easily find inspiration to write, illustrate or share related videos. Incorporates text analysis API's to ensure a positive and constructive environment.",
-      "keywords": [
-        "JavaScript",
-        "Node.js",
-        "Express.js",
-        "HTML",
-        "CSS",
-        "React.js",
-        "MongoDB",
-        "Atlas",
-        "Mongoose",
-        "Heroku",
-        "Netlify",
-        "Git/Github",
-        "Microsoft Azure AI"
-      ]
+      "name": "Sat-Racer",
+      "website": "https://martinestoyanov.github.io/sat-racer/",
+      "keywords": ["JavaScript", "HTML", "CSS"],
+      "summary": "In-browser bird's eye view arcade style racing game using vanilla HTML/CSS/JavaScript.",
+      "startDate": "2021-02"
     },
     {
       "name": "Animation-Station",
@@ -154,11 +141,24 @@
       ]
     },
     {
-      "name": "Sat-Racer",
-      "website": "https://martinestoyanov.github.io/sat-racer/",
-      "keywords": ["JavaScript", "HTML", "CSS"],
-      "summary": "In-browser bird's eye view arcade style racing game using vanilla HTML/CSS/JavaScript.",
-      "startDate": "2021-02"
+      "name": "Storyboard",
+      "website": "https://thestoryboard.netlify.app/",
+      "summary": "Collaborative platform aimed to bridge the gap between authors and illustrators. Allows for users to easily find inspiration to write, illustrate or share related videos. Incorporates text analysis API's to ensure a positive and constructive environment.",
+      "keywords": [
+        "JavaScript",
+        "Node.js",
+        "Express.js",
+        "HTML",
+        "CSS",
+        "React.js",
+        "MongoDB",
+        "Atlas",
+        "Mongoose",
+        "Heroku",
+        "Netlify",
+        "Git/Github",
+        "Microsoft Azure AI"
+      ]
     }
   ]
 }
