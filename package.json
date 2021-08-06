@@ -1,11 +1,13 @@
 {
-  "name": "jsonresume-theme-boilerplate",
+  "name": "jsonresume-theme-flat-extended-projects",
   "version": "0.1.2",
-  "description": "Boilerplate theme for JSON Resume",
-  "author": "Mattias Erming",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/erming/jsonresume-theme-boilerplate"
+  "description": "Updated flat theme to show projects",
+  "author": "Martin Stoyanov",
+  "scripts": {
+    "start": "resume serve --theme .",
+    "build": "npm run build-html && npm run build-pdf",
+    "build-html": "resume export --theme . index.html",
+    "build-pdf": "wkhtmltopdf --viewport-size 1280x1024 --page-size A4 index.html resume.pdf"
   },
   "license": "MIT",
   "dependencies": {
