@@ -9,9 +9,17 @@
 			<div class="col-sm-12">
 				<h4 class="strike-through">
 					<span>{{company}}</span>
-					<span class="date">
+
+					{{#if endDate}}
+						<span class="date">
 						{{startDate}} — {{endDate}}
-					</span>
+						</span>
+					{{else}}
+						<span class="date">
+						{{startDate}} — Present
+						</span>
+					{{/if}}
+					
 				</h4>
 				{{#website}}
 				<div class="website pull-right">
